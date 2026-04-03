@@ -1,0 +1,48 @@
+nom,prenom,sexe,date_naissance,lieu_naissance,adresse,commune,pays,nir,organisme,employeur,bin,nic,date_debut,date_fin,regime,identifie
+Dupont,Alice,F,1985-03-12,Tours,12 rue Victor Hugo,Tours,France,285031237845612,CPAM,Carrefour,12345,678,2010-01-01,2015-06-30,General,1
+Martin,Bob,M,1978-11-02,Paris,45 avenue République,Paris,France,178110275612345,MSA,Total,54321,111,2005-03-01,2018-12-31,Agricole,1
+Durand,Charlie,M,1990-07-25,Lyon,8 rue Nationale,Lyon,France,190072512345678,CPAM,Amazon,67890,222,2016-05-01,2020-10-15,General,1
+Lefevre,Emma,F,1982-01-17,Bordeaux,22 rue Sainte Catherine,Bordeaux,France,282011712345999,RSI,Indépendant,22222,333,2012-09-01,,Independant,1
+Moreau,David,M,1975-09-09,Lille,3 rue Faidherbe,Lille,France,175090912345888,CPAM,Auchan,33333,444,2000-01-01,2010-12-31,General,1
+,,M,1988-06-10,Marseille,,Marseille,France,,CPAM,,12345,555,2014-02-01,,General,0
+Dubois,,F,,Nice,15 rue Massena,Nice,France,,MSA,,54321,666,,,Agricole,0
+,,F,,,,,France,,,,,,,,,0
+Petit,Lucas,M,1995-04-04,Nantes,9 rue Crébillon,Nantes,France,195040412345777,CPAM,Leclerc,11111,777,2018-06-01,,General,1
+Robert,Chloe,F,1989-12-30,Strasbourg,5 rue des Grandes Arcades,Strasbourg,France,289123012345666,RSI,Freelance,22222,888,2015-01-01,,Independant,1
+,,M,,,,,France,,,Amazon,,,2020-01-01,,General,0
+Simon,Paul,M,1983-08-14,Rennes,2 rue Saint-Michel,Rennes,France,183081412345555,CPAM,Orange,99999,999,2011-03-01,2019-07-01,General,1
+Laurent,Sarah,F,1992-05-20,Toulouse,18 rue Alsace,Toulouse,France,292052012345444,MSA,Airbus,88888,101,2017-04-01,,General,1
+,,F,1991-02-11,,Lyon,Lyon,France,,CPAM,,77777,202,,,General,0
+Garcia,Leo,M,1987-03-03,Montpellier,7 rue Foch,Montpellier,France,187030312345333,CPAM,Sanofi,66666,303,2010-09-01,2018-05-01,General,1
+,,M,,,,,France,,,,,,,,,0
+Bernard,Julie,F,1993-07-07,Dijon,10 rue Liberté,Dijon,France,293070712345222,CPAM,EDF,55555,404,2019-01-01,,General,1
+Thomas,Lucas,M,1980-10-10,Clermont,6 rue Jaude,Clermont,France,180101012345111,MSA,Michelin,44444,505,2008-02-01,2016-03-01,Agricole,1
+,,F,,,,,France,,,,,,,,,0
+Roux,Manon,F,1994-06-18,Angers,14 rue d'Alsace,Angers,France,294061812345321,CPAM,Carrefour,12321,111,2019-03-01,,General,1
+Fournier,Lucas,M,1986-02-09,Reims,6 rue Vesle,Reims,France,186020912345654,MSA,Danone,45678,222,2010-07-01,2017-08-31,Agricole,1
+Girard,Laura,F,1991-09-22,Grenoble,3 rue Félix Poulat,Grenoble,France,291092212345987,CPAM,Capgemini,78901,333,2015-02-01,,General,1
+Andre,Thomas,M,1979-12-01,Toulon,8 rue d'Alger,Toulon,France,179120112345741,RSI,Indépendant,14785,444,2008-05-01,,Independant,1
+Mercier,Julie,F,1988-04-14,Brest,11 rue Siam,Brest,France,288041412345852,CPAM,Leclerc,25896,555,2012-10-01,2019-06-01,General,1
+,,M,1987-01-01,Lyon,,Lyon,France,,CPAM,,36985,666,2013-01-01,,General,0
+Blanc,,F,,Nice,2 rue de France,Nice,France,,MSA,,15987,777,,,Agricole,0
+,,F,,,,,France,,,,,,,,,0
+Henry,Paul,M,1996-03-30,Limoges,9 rue Clocher,Limoges,France,196033012345963,CPAM,EDF,75321,888,2020-01-01,,General,1
+Renaud,Claire,F,1984-07-07,Metz,4 rue Serpenoise,Metz,France,284070712345369,RSI,Freelance,95123,999,2011-04-01,,Independant,1
+,,M,,,,,France,,,Total,,,2018-01-01,,General,0
+Noel,Hugo,M,1990-10-19,Orleans,5 rue Royale,Orleans,France,190101912345258,CPAM,Orange,35789,101,2014-03-01,2021-02-01,General,1
+Marchand,Sophie,F,1993-02-25,Nancy,7 rue Stanislas,Nancy,France,293022512345147,MSA,Veolia,65412,202,2018-06-01,,General,1
+,,F,1992-11-11,,Paris,Paris,France,,CPAM,,85236,303,,,General,0
+Legrand,Antoine,M,1985-08-08,Amiens,10 rue Trois Cailloux,Amiens,France,185080812345456,CPAM,SNCF,74125,404,2009-09-01,2016-12-01,General,1
+,,M,,,,,France,,,,,,,,,0
+Garnier,Lucie,F,1997-05-05,Poitiers,6 rue Magenta,Poitiers,France,297050512345753,CPAM,Auchan,36912,505,2021-01-01,,General,1
+Chevalier,Maxime,M,1982-03-17,Caen,12 rue Ecuyere,Caen,France,182031712345951,MSA,Agrial,95147,606,2007-04-01,2015-03-01,Agricole,1
+,,F,,,,,France,,,,,,,,,0
+Colin,Emma,F,1989-09-09,Annecy,3 rue Carnot,Annecy,France,289090912345852,CPAM,Decathlon,75369,707,2013-05-01,,General,1
+Perrot,Nathan,M,1991-01-21,Avignon,8 rue République,Avignon,France,191012112345147,CPAM,Amazon,15963,808,2016-07-01,,General,1
+,,M,,,,,France,,,Amazon,,,2022-01-01,,General,0
+Boyer,Ines,F,1995-12-12,Besancon,2 rue Pasteur,Besancon,France,295121212345963,RSI,Freelance,35741,909,2020-09-01,,Independant,1
+Carpentier,Alex,M,1987-06-06,Rouen,11 rue Gros Horloge,Rouen,France,187060612345852,CPAM,Total,95126,111,2011-02-01,2019-01-01,General,1
+,,F,,,,,France,,,,,,,,,0
+Pires,Lina,F,1998-04-04,Perpignan,9 rue Clemenceau,Perpignan,France,298040412345357,CPAM,Carrefour,65487,222,2022-03-01,,General,1
+Masson,Theo,M,1983-11-11,Valence,7 rue Emile Augier,Valence,France,183111112345258,MSA,Danone,75314,333,2006-01-01,2014-08-01,Agricole,1
+,,M,,,,,France,,,,,,,,,0
