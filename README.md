@@ -1,4 +1,4 @@
-# Identification des assurés avec l'IA
+# Identification Assurés IA
 
 ## 📌 Contexte
 
