@@ -1,121 +1,142 @@
-# Intelligent Insured Identification
+# 🤖 Intelligent Insured Identification
 
 ## 📌 Contexte
 
-Ce projet a été réalisé dans le cadre d'une initiative proposée lors d'une alternance à la **CNAV (Caisse Nationale d’Assurance Vieillesse)**.
+Lors de mon alternance à la **CNAV (Caisse Nationale d’Assurance Vieillesse)**, j’ai identifié une problématique clé liée au **RGCU (Répertoire de Gestion des Carrières Unique)** :
 
-Il vise à illustrer comment des techniques d'Intelligence Artificielle peuvent être utilisées pour améliorer la qualité des données au sein du **RGCU (Répertoire de Gestion des Carrières Unique)**.
+👉 **la qualité et la complétude des données assurés**, essentielles pour leur identification et leur exploitation.
+
+Dans mon mémoire, j’ai proposé l’utilisation de l’Intelligence Artificielle pour répondre à ce besoin.
+
+🎯 Ce projet est la **concrétisation technique de cette idée**.
 
 
-## 🎯 Objectif
+## 🚀 Objectif
 
-L’objectif principal est de construire un modèle de **Machine Learning supervisé** capable de déterminer si un assuré est :
+Développer un modèle de **Machine Learning supervisé** capable de déterminer automatiquement si un assuré est :
 
-* ✅ **Identifié** (données complètes et exploitables)
-* ❌ **Non identifié** (données manquantes, incohérentes ou insuffisantes)
+* ✅ **Identifié** → données complètes, cohérentes et exploitables
+* ❌ **Non identifié** → données manquantes, incohérentes ou insuffisantes
 
-👉 Il s’agit donc d’un **problème de classification binaire**.
+👉 Problème traité : **classification binaire appliquée à la qualité des données**
+
+
+## 🧠 Approche
+
+Plutôt que de se baser uniquement sur des règles métier statiques, ce projet propose une approche basée sur :
+
+* la **complétude des données**
+* la présence d’informations clés (**NIR, identité**)
+* la **cohérence globale des informations**
+
+👉 Le modèle apprend à détecter automatiquement des profils exploitables.
 
 
 ## 📊 Données
 
-⚠️ **Important :**
+⚠️ **Important**
 
-* Les données utilisées dans ce projet sont **entièrement fictives**
-* Elles ne représentent **en aucun cas les données réelles des assurés**
-* Elles ne reflètent pas les traitements réellement effectués au sein du RGCU
-* Elles ont été générées à des fins de démonstration uniquement
+* Les données utilisées sont **entièrement fictives**
+* Elles ont été générées pour simuler des cas réalistes :
+
+  * données complètes
+  * données manquantes
+  * incohérences (NIR invalide, erreurs, etc.)
+
+❗ Elles ne représentent **en aucun cas** les données réelles du RGCU ni les traitements actuels.
 
 
 ## 🧪 Méthodologie
 
-Le projet suit les étapes classiques d’un pipeline de Data Science :
+Le projet suit un pipeline Data Science complet :
 
-### 1. Analyse exploratoire (EDA)
+### 🔍 1. Analyse exploratoire
 
-* Compréhension des données
+* Distribution des données
 * Analyse des valeurs manquantes
 * Étude de la variable cible
 
-### 2. Nettoyage des données
+### 🧹 2. Nettoyage
 
-* Gestion des valeurs manquantes
-* Correction des incohérences
-* Conversion des types de données
+* Gestion des données incohérentes
+* Conversion des types
+* Standardisation
 
-### 3. Feature Engineering
+### ⚙️ 3. Feature Engineering
 
-Création de variables pertinentes :
+Création de variables clés :
 
-* Présence du NIR
-* Présence du nom et prénom
-* Nombre de champs renseignés
-* Taux de complétude des données
+* `nir_present`
+* `nom_present`
+* `prenom_present`
+* `nb_champs_renseignes`
+* `taux_completude`
 
-### 4. Modélisation
+### 🤖 4. Modélisation
 
-Plusieurs modèles de classification ont été testés :
+Modèles testés :
 
 * Régression logistique
 * Arbre de décision
 * Random Forest
 
-### 5. Optimisation
+### 🔥 5. Optimisation
 
-* Utilisation de **RandomizedSearchCV** pour améliorer les performances
+* **RandomizedSearchCV**
 
-### 6. Évaluation
+### 📈 6. Évaluation
 
 * Accuracy
 * Precision / Recall
 * Analyse des erreurs
 
 
-## 🧠 Approche
+## 📊 Résultats
 
-Le modèle apprend à détecter si un assuré est identifiable à partir de :
+👉 Le modèle apprend efficacement à distinguer :
 
-* La **complétude des données**
-* La présence d’informations clés (NIR, identité)
-* La cohérence globale des informations
+* les dossiers exploitables
+* les dossiers incomplets
 
-👉 Ce projet s’inscrit également dans une logique de :
+👉 Les variables les plus importantes :
 
-* **qualité des données**
-* **détection d’anomalies**
+* présence du NIR
+* taux de complétude
+* nombre de champs renseignés
 
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies
 
 * Python
 * Pandas
 * NumPy
 * Scikit-learn
-* Matplotlib
-* Seaborn
+* Matplotlib / Seaborn
 
 
-## ⚠️ Avertissement
+## ⚠️ Limites
 
-Ce projet est une **preuve de concept (POC)**.
-
-Il ne doit pas être utilisé en production sans :
-
-* validation métier
-* conformité réglementaire
-* respect du RGPD
+* Données synthétiques
+* Simplification des règles métier
+* Pas d’intégration système réel
 
 
-## 🚀 Apports du projet
+## 🚀 Apports
 
-Ce travail permet de démontrer :
+Ce projet démontre :
 
-* L’intérêt du Machine Learning pour améliorer la qualité des données
-* La capacité à détecter automatiquement des dossiers incomplets
-* Le potentiel d’intégration de l’IA dans les systèmes d’information publics
+* la **valeur de l’IA pour la qualité des données**
+* la capacité à transformer une **idée métier en solution technique**
+* le potentiel d’intégration de l’IA dans les systèmes publics
+
+
+## ⚠️ Disclaimer
+
+Ce projet est une **preuve de concept (POC)** à but démonstratif.
 
 
 ## 👨‍💻 Auteur
 
-Alex Alkhatib <br>
-Projet réalisé dans le cadre d'une alternance à la CNAV dans un objectif de démonstration des applications de l’IA au sein du RGCU.
+**Alex Alkhatib**
+
+Projet réalisé suite à une réflexion menée lors d’une alternance à la CNAV, avec une volonté de concrétiser une application réelle de l’IA.
