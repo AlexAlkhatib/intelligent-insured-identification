@@ -117,5 +117,5 @@ Ce travail permet de démontrer :
 
 ## 👨‍💻 Auteur
 
-Alex Alkhatib
+Alex Alkhatib <br>
 Projet réalisé dans le cadre d'une alternance à la CNAV dans un objectif de démonstration des applications de l’IA au sein du RGCU.
