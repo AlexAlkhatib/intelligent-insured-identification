@@ -1,4 +1,4 @@
-# 🤖 Intelligent Insured Identification
+# 🫆 Intelligent Insured Identification
 
 ## 📌 Contexte
 
