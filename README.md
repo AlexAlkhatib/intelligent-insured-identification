@@ -130,18 +130,6 @@ Ce projet démontre :
 * le potentiel d’intégration de l’IA dans les systèmes publics
 
 
-## ⚠️ Disclaimer
-
-Ce projet est une **preuve de concept (POC)** à but démonstratif.
-
-
-## 👨‍💻 Auteur
-
-**Alex Alkhatib**
-
-Projet réalisé suite à une réflexion menée lors d’une alternance à la CNAV, avec une volonté de concrétiser une application réelle de l’IA.
-
-
 ## 🔒 Propriété intellectuelle et clause de non-responsabilité
 
 Ce projet est un travail personnel indépendant inspiré par les défis généraux du secteur.
@@ -149,3 +137,10 @@ Ce projet est un travail personnel indépendant inspiré par les défis généra
 Il ne contient aucune information, code ou donnée confidentielle provenant d'anciens employeurs.
 
 Toutes les données utilisées dans ce projet sont synthétiques et ont été générées à des fins de démonstration uniquement.
+
+
+## 👨‍💻 Auteur
+
+**Alex Alkhatib**
+
+Projet réalisé suite à une réflexion menée lors d’une alternance à la CNAV, avec une volonté de concrétiser une application réelle de l’IA.
