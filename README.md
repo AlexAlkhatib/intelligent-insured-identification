@@ -32,6 +32,18 @@ Plutôt que de se baser uniquement sur des règles métier statiques, ce projet 
 👉 Le modèle apprend à détecter automatiquement des profils exploitables.
 
 
+### 🔎 Interprétation métier
+
+Dans ce contexte, la présence du NIR (Numéro de Sécurité Sociale) constitue une condition suffisante mais non nécessaire pour identifier un assuré.
+
+En effet :
+
+- La présence du NIR permet une identification unique et fiable
+- En son absence, l’identification reste possible en s’appuyant sur un ensemble d’informations (nom, prénom, date et lieu de naissance, adresse, etc.)
+
+👉 Le modèle exploite donc une combinaison de variables afin de reproduire ce raisonnement et détecter automatiquement les dossiers exploitables.
+
+
 ## 📊 Données
 
 ⚠️ **Important**
